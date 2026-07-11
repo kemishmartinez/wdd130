@@ -1,3 +1,18 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: #333;
+}
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -6,6 +21,10 @@ main {
 main img {
     width: 150px;
     height: auto;
+
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 aside {
@@ -28,9 +47,6 @@ p {
 
 footer {
     margin-top: 40px;
-
     border-top: 1px solid #333;
-
     text-align: center;
-
 }
