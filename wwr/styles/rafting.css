@@ -1,0 +1,169 @@
+/* Core Document Presentation */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ffffff;
+}
+
+/* Header & Vertical List Navigation */
+header {
+    max-width: 960px;
+    margin: 20px auto 10px auto;
+    padding: 0 10px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+}
+
+nav ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+nav ul li {
+    margin-bottom: 4px;
+}
+
+nav ul li a {
+    color: #0000ee;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Boundaries */
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* Hero Frame Component Setup */
+.hero-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.hero-image {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Semi-transparent Top Header Overlay */
+.hero-title-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(26, 54, 93, 0.75);
+    /* Muted Dark Blue Overlay */
+    text-align: center;
+    padding: 12px 0;
+}
+
+.hero-title-bar h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* Semi-transparent Bottom Card Overlay */
+.hero-card {
+    position: absolute;
+    bottom: 25px;
+    left: 5%;
+    right: 5%;
+    background-color: rgba(26, 54, 93, 0.75);
+    /* Matching Card Tint */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card-text p {
+    color: #ffffff;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.card-image {
+    width: 140px;
+    height: auto;
+    border: 1px solid #ffffff;
+    display: block;
+}
+
+/* Solid Blue Section Headers */
+.content-section {
+    margin-bottom: 25px;
+}
+
+.section-banner {
+    background-color: #1a365d;
+    /* Solid Dark Blue */
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 12px;
+}
+
+.section-banner h2 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-desc {
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 5px;
+}
+
+/* Footer & Media Controls */
+footer {
+    max-width: 960px;
+    margin: 30px auto 20px auto;
+    padding: 15px 10px 0 10px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-text p {
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    color: #333333;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.socialmedia img {
+    width: 36px;
+    height: 36px;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.socialmedia img:hover {
+    transform: scale(1.05);
+}
