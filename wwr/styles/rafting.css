@@ -36,7 +36,7 @@ header {
 
 header nav a {
     display: block;
-    color: #0000ee;
+    color: var(--accent-color);
     text-decoration: underline;
     font-size: 14px;
     margin-bottom: 4px;
