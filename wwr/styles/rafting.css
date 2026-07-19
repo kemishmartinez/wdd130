@@ -1,4 +1,3 @@
-/* Core Document Presentation */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +6,6 @@ body {
     background-color: #ffffff;
 }
 
-/* Header & Vertical List Navigation */
 header {
     max-width: 960px;
     margin: 20px auto 10px auto;
@@ -40,14 +38,12 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Main Content Boundaries */
 main {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
-/* Hero Frame Component Setup */
 .hero-container {
     position: relative;
     width: 100%;
@@ -60,14 +56,12 @@ main {
     height: auto;
 }
 
-/* Semi-transparent Top Header Overlay */
 .hero-title-bar {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     background-color: rgba(26, 54, 93, 0.75);
-    /* Muted Dark Blue Overlay */
     text-align: center;
     padding: 12px 0;
 }
@@ -80,14 +74,13 @@ main {
     letter-spacing: 0.5px;
 }
 
-/* Semi-transparent Bottom Card Overlay */
 .hero-card {
     position: absolute;
     bottom: 25px;
     left: 5%;
     right: 5%;
     background-color: rgba(26, 54, 93, 0.75);
-    /* Matching Card Tint */
+
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 15px;
     display: flex;
@@ -110,14 +103,13 @@ main {
     display: block;
 }
 
-/* Solid Blue Section Headers */
 .content-section {
     margin-bottom: 25px;
 }
 
 .section-banner {
     background-color: #1a365d;
-    /* Solid Dark Blue */
+
     text-align: center;
     padding: 10px 0;
     margin-bottom: 12px;
@@ -137,7 +129,6 @@ main {
     padding: 0 5px;
 }
 
-/* Footer & Media Controls */
 footer {
     max-width: 960px;
     margin: 30px auto 20px auto;
