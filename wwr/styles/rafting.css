@@ -19,7 +19,6 @@ body {
     line-height: 1.6;
 }
 
-/* W04 Instruction #4: Header uses CSS Grid for horizontal layout */
 header {
     max-width: 960px;
     margin: 20px auto 10px auto;
@@ -34,7 +33,6 @@ header {
     height: auto;
 }
 
-/* W04 Instruction #5: Navigation uses CSS Flexbox */
 header nav {
     display: flex;
     justify-content: flex-end;
@@ -119,7 +117,6 @@ main {
     clear: both;
 }
 
-/* W04 Instruction #7: History Section Layout */
 .history-section {
     margin-bottom: 25px;
 }
@@ -146,7 +143,6 @@ main {
     border-radius: 4px;
 }
 
-/* W04 Instruction #8: Adventure Gallery 5-Image Horizontal Grid */
 .adventure-section {
     margin-bottom: 25px;
 }
@@ -183,7 +179,6 @@ main {
     color: var(--text-color);
 }
 
-/* W04 Instruction #9: Footer Flexbox Alignment */
 footer {
     max-width: 960px;
     margin: 30px auto 20px auto;
