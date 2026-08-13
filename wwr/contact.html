@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Down the River Water Adventures</title>
+    <meta name="description"
+      content="Get in touch with Down the River Water Adventures. Find our location, view our team profiles, or send us a message through our contact form.">
+    <meta name="author" content="Kemish Martinez">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Down the River Water Adventures Logo" class="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Top Section: Company Info, Map, and Form -->
+        <div class="contact-grid">
+
+            <!-- Company Info & Map Block -->
+            <section class="company-info">
+                <h1>Contact Down the River</h1>
+                <p class="address">123 Main River Street<br>Coloma, California</p>
+                <p class="phone">+1 (208) 555-0199</p>
+                <p class="email">info@downtheriver.com</p>
+
+                <!-- Embedded Google Map Frame (style="border:0" removed per instructions) -->
+                <div class="map-container">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.7348937989354!2d-120.89163862419515!3d38.81561005118742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b024479e00001%3A0x6bda169be84860cc!2sMarshall%20Gold%20Discovery%20State%20Historic%20Park!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+                      width="600" height="450" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+
+            <!-- HTML Form Block -->
+            <section class="form-container">
+                <form action="#" method="post">
+                    <div class="form-item">
+                        <label for="username">Name:</label>
+                        <input type="text" id="username" name="username" placeholder="Your Name"
+                          required>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail"
+                          placeholder="username@email.com" required>
+                    </div>
+
+                    <!-- Radio Button Group for Message Purpose -->
+                    <fieldset class="radio-group">
+                        <legend>Message Purpose:</legend>
+                        <label><input type="radio" name="purpose" value="general" checked> General
+                            Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation
+                            Question</label>
+                        <label><input type="radio" name="purpose" value="suggestion"> Website
+                            Suggestion</label>
+                    </fieldset>
+
+                    <div class="form-item">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Type here..."
+                          required></textarea>
+                    </div>
+
+                    <div class="form-checkbox">
+                        <label><input type="checkbox" name="subscribe" value="yes"> Please subscribe
+                            me to
+                            the monthly newsletter</label>
+                    </div>
+
+                    <button type="submit">Get in Touch</button>
+                </form>
+            </section>
+        </div>
+
+        <!-- Bottom Section: Employee Profiles -->
+        <section class="team-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="team-profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Portrait of John, Owner and Senior Guide">
+                    <figcaption>
+                        <strong>John Rivers</strong>
+                        <span>Owner &amp; Senior Guide</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg"
+                      alt="Portrait of Sarah, Safety & Logistics Coordinator">
+                    <figcaption>
+                        <strong>Sarah Crew</strong>
+                        <span>Safety Coordinator</span>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Portrait of Alex, Swiftwater Instructor">
+                    <figcaption>
+                        <strong>Alex Rapids</strong>
+                        <span>Lead Instructor</span>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-text">
+            <p>&copy;2026 | Down the River Water Adventures | Kemish Martinez</p>
+        </div>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
